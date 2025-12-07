@@ -14,8 +14,26 @@
     "@nuxt/icon": "2.1.0",
     "@nuxthq/studio": "2.2.1",
     "better-sqlite3": "^12.5.0",
+    "bindings": "^1.5.0",
     "nuxt": "^4.2.1",
     "vue": "^3.5.25",
     "vue-router": "^4.6.3"
+  },
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "win64",
+        "current"
+      ],
+      "cpu": [
+        "x64",
+        "arm64"
+      ]
+    },
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild"
+    ]
   }
 }
