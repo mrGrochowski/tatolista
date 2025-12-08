@@ -18,6 +18,13 @@ export default defineNuxtConfig({
       branch: 'main', // the branch to commit to (default: 'main')
     }
   },
+  content: {
+    preview: {
+      // Upewnij się, że to jest poprawne lub, że tego w ogóle nie ma, jeśli 
+      // nie jest wymagane do uruchomienia Studio
+      api: 'https://api.nuxt.studio' // Jeśli to była próba obejścia błędu, spróbuj usunąć!
+    }
+  },
   nitro: {
     prerender: {
       // Pre-render the homepage
