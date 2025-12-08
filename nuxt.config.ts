@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     repository: {
       provider: 'github', // 'github' or 'gitlab'
       owner: 'mrGrochowski', // your GitHub/GitLab username or organization
-      repo: 'tatolista', // your repository name
+      repo: 'mrGrochowski/tatolista', // your repository name
       branch: 'main', // the branch to commit to (default: 'main')
     }
   },
@@ -25,12 +25,12 @@ export default defineNuxtConfig({
       api: 'https://api.nuxt.studio' // Jeśli to była próba obejścia błędu, spróbuj usunąć!
     }
   },
-  nitro: {
+  /* nitro: {
     prerender: {
       // Pre-render the homepage
       routes: ['/'],
       // Then crawl all the links on the page
       crawlLinks: true
     }
-  }
+  } */
 })
