@@ -1,12 +1,14 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineAppConfig } from 'nuxt/app'
 
 export default defineNuxtConfig({
+  build: {
+    // Wymuszenie transpilacji modułu 'extend'
+    transpile: ['extend'],
+  },
   compatibilityDate: '2025-07-15',
   modules: [
-    '@nuxt/icon',
     '@nuxt/content',
-    'nuxt-studio'
+    'nuxt-studio',
+    '@nuxt/icon',
   ],
   studio: {
     route: '/admin',
@@ -18,13 +20,13 @@ export default defineNuxtConfig({
       branch: 'main', // the branch to commit to (default: 'main')
     }
   },
-  content: {
+ /*  content: {
     preview: {
       // Upewnij się, że to jest poprawne lub, że tego w ogóle nie ma, jeśli 
       // nie jest wymagane do uruchomienia Studio
-      api: 'https://api.nuxt.studio' // Jeśli to była próba obejścia błędu, spróbuj usunąć!
+      api: 'https://api.nuxt.studio', // Jeśli to była próba obejścia błędu, spróbuj usunąć!
     }
-  },
+  }, */
   /* nitro: {
     prerender: {
       // Pre-render the homepage

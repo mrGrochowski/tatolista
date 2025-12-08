@@ -1,4 +1,5 @@
-## INDEX
+---
+title: "Home"
+---
 
-
-WEBSITE UNDER CONSTRUCTION
+# To jest strona główna
