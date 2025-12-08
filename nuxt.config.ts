@@ -7,7 +7,15 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/icon',
     '@nuxt/content',
-    '@nuxthq/studio',
     'nuxt-studio'
-  ]
+  ],
+  studio: {
+    // Git repository configuration (owner and repo are required)
+    repository: {
+      provider: 'github', // 'github' or 'gitlab'
+      owner: 'mrGrochowski', // your GitHub/GitLab username or organization
+      repo: 'tatolista', // your repository name
+      branch: 'main', // the branch to commit to (default: 'main')
+    }
+  }
 })
