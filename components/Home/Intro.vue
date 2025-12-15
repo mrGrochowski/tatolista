@@ -8,14 +8,13 @@
     </h1>
     <p class="text-gray-900 dark:text-gray-400">
       Drodzy rodzice. Robię listę filmików dla chłopców 6-12 lat które sa dla nich ciekawe i rozwijające, zarówno muzyka jak i filmy. Domyślnie chcę zrobić taką społeczność która będzie dodawała takie filmiki i będziemy je wrzucać z poczekalni na główną listę. Zasady są takie, nie wrzucamy przemocy, nie wrzucamy nudów, nie wrzucamy skrajnie agresywnych tematów. W liscie poczekalni możemy głosować strzałką w dół i w górę 
-https://tatolista.short.gy/oczekujace-youtube
+      <a href="https://tatolista.short.gy/oczekujace-youtube">https://tatolista.short.gy/oczekujace-youtube</a>
 tutaj przykład listy gotowej do wyświetlania dzieciakom
-https://tatolista.short.gy/tatolista-chlopcy-6-12lat
+      <a href="https://tatolista.short.gy/tatolista-chlopcy-6-12lat">https://tatolista.short.gy/tatolista-chlopcy-6-12lat</a>
 Jeżeli uważacie że filmik trzeba zdjąć z głównej tatolisty wklejajcie tutaj link. Filmiki uzyskujące ok 90% głosów będą wrzucane do listy głównej.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
-      By day, I'm a FrontEnd Developer at
-      <a href="https://redge.com" target="_blank" class="underline">Redge</a>.
+      Niedługo ta aplikacja będzie działać jako narzędzie do rewidowania Tatolisty.
     </p>
   </div>
 </template>
