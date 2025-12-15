@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/ui",
     "@nuxtjs/tailwindcss",
-    "nuxt-icon",
     "@nuxtjs/google-fonts",
     "@nuxtjs/fontaine",
     "@nuxt/content",
@@ -118,6 +117,6 @@ export default defineNuxtConfig({
         },
       },
 
-    }
+    },
   }
 });
