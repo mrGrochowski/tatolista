@@ -1,0 +1,6 @@
+/* Plik: assets/css/main.css */
+
+/* Dyrektywy Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
