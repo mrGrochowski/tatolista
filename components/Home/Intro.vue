@@ -7,12 +7,11 @@
       Hello!
     </h1>
     <p class="text-gray-900 dark:text-gray-400">
-      I'm Mateusz, I work as a software, product engineer and designer from
-      Łódź, Poland. I specialize in building web applications and sites
-      using Javascript, Vue &amp; Node. I've procrastinated building this
-      website for years but finally it's here, I've carved out my own little
-      nook on the internet to share my silly experiments, nifty projects, and
-      thoughts (mostly about tech and design).
+      Drodzy rodzice. Robię listę filmików dla chłopców 6-12 lat które sa dla nich ciekawe i rozwijające, zarówno muzyka jak i filmy. Domyślnie chcę zrobić taką społeczność która będzie dodawała takie filmiki i będziemy je wrzucać z poczekalni na główną listę. Zasady są takie, nie wrzucamy przemocy, nie wrzucamy nudów, nie wrzucamy skrajnie agresywnych tematów. W liscie poczekalni możemy głosować strzałką w dół i w górę 
+https://tatolista.short.gy/oczekujace-youtube
+tutaj przykład listy gotowej do wyświetlania dzieciakom
+https://tatolista.short.gy/tatolista-chlopcy-6-12lat
+Jeżeli uważacie że filmik trzeba zdjąć z głównej tatolisty wklejajcie tutaj link. Filmiki uzyskujące ok 90% głosów będą wrzucane do listy głównej.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       By day, I'm a FrontEnd Developer at
