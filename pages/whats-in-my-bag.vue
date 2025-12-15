@@ -34,7 +34,7 @@ useSeoMeta({
   description,
 });
 const { data: items } = await useAsyncData("uses", () =>
-  queryContent("/uses").find()
+  queryCollection("/uses").find()
 );
 const hardware = items.value.filter((item) => item.category === "hardware");
 const software = items.value.filter((item) => item.category === "software");

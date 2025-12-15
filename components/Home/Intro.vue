@@ -8,14 +8,14 @@
     </h1>
     <p class="text-gray-900 dark:text-gray-400">
       I'm Mateusz, I work as a software, product engineer and designer from
-      Bengaluru, India. I specialize in building web applications and sites
+      Łódź, Poland. I specialize in building web applications and sites
       using Javascript, Vue &amp; Node. I've procrastinated building this
       website for years but finally it's here, I've carved out my own little
       nook on the internet to share my silly experiments, nifty projects, and
       thoughts (mostly about tech and design).
     </p>
     <p class="text-gray-900 dark:text-gray-400">
-      By day, I'm a Fullstack Developer at
+      By day, I'm a FrontEnd Developer at
       <a href="https://redge.com" target="_blank" class="underline">Redge</a>.
     </p>
   </div>

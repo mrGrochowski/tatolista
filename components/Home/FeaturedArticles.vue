@@ -21,7 +21,7 @@
 
 <script lang="ts" setup>
 const { data: articles } = await useAsyncData("articles-home", () =>
-  queryContent("/articles")
+  queryCollection("/articles")
     .sort({ published: -1 })
     .limit(3)
     .only(["title", "description", "published", "slug", "_path"])

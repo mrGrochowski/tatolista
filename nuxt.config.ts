@@ -11,6 +11,24 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxt/image",
   ],
+  studio: {
+    // Git repository configuration (owner and repo are required)
+    repository: {
+      provider: 'github', // 'github' or 'gitlab'
+      owner: 'mrGrochowski', // your GitHub/GitLab username or organization
+      repo: 'tatolista', // your repository name
+      branch: 'main', // the branch to commit to (default: 'main')
+    },
+    route: '/admin',
+  },
+  nitro: {
+    prerender: {
+      // Pre-render the homepage
+      routes: ['/'],
+      // Then crawl all the links on the page
+      crawlLinks: true
+    }
+  },
   css: [
     '~/assets/css/main.css',
   ],
@@ -38,11 +56,6 @@ export default defineNuxtConfig({
     display: "swap",
     families: {
       Inter: [400, 500, 600, 700, 800, 900],
-    },
-  },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
     },
   },
   tailwindcss: {
